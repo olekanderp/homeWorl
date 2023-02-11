@@ -1,0 +1,2633 @@
+[
+    {
+        "id": "60f6f989fb1319a0",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4f8f82d61af83d1a",
+        "type": "tab",
+        "label": "od",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d5cdf4f9cda1e2be",
+        "type": "tab",
+        "label": "Poland",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4f907c2c1e00e29",
+        "type": "tab",
+        "label": "Поток 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6d8a995e867654d0",
+        "type": "tab",
+        "label": "Соняшник",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "63f19a3c79d8988d",
+        "type": "tab",
+        "label": "Поток 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "68b44061.6de018",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "72983c2150b8b211",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 60,
+                "sy": 48,
+                "gx": 20,
+                "gy": 20,
+                "cx": 6,
+                "cy": 6,
+                "px": 10,
+                "py": 10
+            }
+        }
+    },
+    {
+        "id": "87a78ced.8e394",
+        "type": "serial-port",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": ""
+    },
+    {
+        "id": "aef9edf803d06f90",
+        "type": "ui_group",
+        "name": "Ємність 1",
+        "tab": "9f7596078c1e09ec",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f7596078c1e09ec",
+        "type": "ui_tab",
+        "name": "Info",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2af681f8eb140e42",
+        "type": "ui_group",
+        "name": "Ємність 2",
+        "tab": "9f7596078c1e09ec",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "772d5dfae97ab7d8",
+        "type": "ui_group",
+        "name": "Ємність 3",
+        "tab": "9f7596078c1e09ec",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "235681743244018a",
+        "type": "ui_group",
+        "name": "ььььь",
+        "tab": "a7003efa399597b9",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a7003efa399597b9",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0d729412dcd7cc5a",
+        "type": "ui_group",
+        "name": "Ємність 2",
+        "tab": "9f7596078c1e09ec",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1266fec8.de0811",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "27f0900d.f39298",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "28a2abb.2c733d4",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "28a2abb.2c733d4",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6293e9bc.df8968",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "a1e95e9e.580868",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a1e95e9e.580868",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4b91fd2f0fa677c5",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "5aaa485551098744"
+            ]
+        ]
+    },
+    {
+        "id": "5aaa485551098744",
+        "type": "exec",
+        "z": "60f6f989fb1319a0",
+        "command": "pwd",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 330,
+        "y": 80,
+        "wires": [
+            [
+                "ac1ce2ce8b06cf3d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7645ba4ccf749089",
+        "type": "comment",
+        "z": "60f6f989fb1319a0",
+        "name": "Task 1",
+        "info": "ls\ncat <file name>\nls -la\npwd",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "ac1ce2ce8b06cf3d",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "884ccc37055338bb",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 420,
+        "wires": [
+            [
+                "d1e8d4b08b8c1d96"
+            ]
+        ]
+    },
+    {
+        "id": "d1e8d4b08b8c1d96",
+        "type": "file in",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "filename": "/home/pi/maksTask/test1.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 340,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6bfe4adc886848f5",
+        "type": "file",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "filename": "/home/pi/maksTask/test1.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 520,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "421421b11f13058a",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 360,
+        "wires": [
+            [
+                "0dedf511f3fc770b"
+            ]
+        ]
+    },
+    {
+        "id": "0dedf511f3fc770b",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "6bfe4adc886848f5"
+            ]
+        ]
+    },
+    {
+        "id": "0d65f15c89920f4a",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0cbdf717bbd5d398",
+        "type": "comment",
+        "z": "60f6f989fb1319a0",
+        "name": "Task 2",
+        "info": "/home/pi/maksTask/\n1. Створити новий файл у /home/pi/maksTask/\n2. Записати дані у цей файл",
+        "x": 90,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "31f7a04457861954",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "83bd07ab0fad9b86"
+            ]
+        ]
+    },
+    {
+        "id": "83bd07ab0fad9b86",
+        "type": "exec",
+        "z": "60f6f989fb1319a0",
+        "command": "ls",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "2ba4e87c5aaa8acf"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2ba4e87c5aaa8acf",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "5e743b76ef0aa321",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "2ef60b28b739d559"
+            ]
+        ]
+    },
+    {
+        "id": "2ef60b28b739d559",
+        "type": "exec",
+        "z": "60f6f989fb1319a0",
+        "command": "ls -la",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "0a411bc6c72ada30"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0a411bc6c72ada30",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "756de0bb5ffa54da",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "eae4a8e9f77f2aad"
+            ]
+        ]
+    },
+    {
+        "id": "eae4a8e9f77f2aad",
+        "type": "exec",
+        "z": "60f6f989fb1319a0",
+        "command": "cat first.sh",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "013260b4d46885e5"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "013260b4d46885e5",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e464116615c2cd85",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 3",
+        "func": "msg.payload = {\n    vaga: Date.now(),\n    data: new Date()\n}\nmsg.DDDD=\"/home/pi/maksTask/test3.txt\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 500,
+        "wires": [
+            [
+                "15d1fe1ff71dc632",
+                "0d65f15c89920f4a",
+                "9635200e0c2d4aaf"
+            ]
+        ]
+    },
+    {
+        "id": "06a7988c22fd7699",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 500,
+        "wires": [
+            [
+                "e464116615c2cd85"
+            ]
+        ]
+    },
+    {
+        "id": "15d1fe1ff71dc632",
+        "type": "file",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "filename": "DDDD",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 460,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cd4cf69987533ac",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 560,
+        "wires": [
+            [
+                "29f6aa8fec859ac1"
+            ]
+        ]
+    },
+    {
+        "id": "29f6aa8fec859ac1",
+        "type": "file in",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "filename": "/home/pi/maksTask/test3.txt",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 340,
+        "y": 560,
+        "wires": [
+            [
+                "4547ed6fe4a692d8"
+            ]
+        ]
+    },
+    {
+        "id": "4547ed6fe4a692d8",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "9635200e0c2d4aaf",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7511dfb9630ed8bf",
+        "type": "comment",
+        "z": "60f6f989fb1319a0",
+        "name": "Task 3",
+        "info": "",
+        "x": 90,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6435dd540db40285",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 800,
+        "wires": [
+            [
+                "feec7d52c6fac681"
+            ]
+        ]
+    },
+    {
+        "id": "feec7d52c6fac681",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 4",
+        "func": "let data = [1, 2, 3, 4, 5, 6, 7, 8, 100]\nlet dov=data.length\n\nfor (var i = 0; i < dov; i++) {\n    data[i] = data[i] + 1\n}\n\n//вивести масив дата data де кожний елемент + 1\nmsg.payload = data\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 800,
+        "wires": [
+            [
+                "34e1c487ac3bbde3"
+            ]
+        ]
+    },
+    {
+        "id": "34e1c487ac3bbde3",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "5cc17d59e1bf6c40",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 920,
+        "wires": [
+            [
+                "38abdf19841e1be5"
+            ]
+        ]
+    },
+    {
+        "id": "38abdf19841e1be5",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 5",
+        "func": "let data = [{ a: 1 }, { a: 2 }, { a: 3 }, { a: 4 }, { a: 5 }, { a: 6 }, { a: 7 }, { a: 8 }, { a: 100 }]\nlet dov=data.length\n\nfor (var i = 0; i < dov; i++) {\n    data[i].a = data[i].a+1\n}\n//вивести масив обєктів data де кожний елемент а = а + 1\nmsg.payload = data\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 920,
+        "wires": [
+            [
+                "5ee626623fd8789e"
+            ]
+        ]
+    },
+    {
+        "id": "5ee626623fd8789e",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "bfb72fb96ccce9d7",
+        "type": "comment",
+        "z": "60f6f989fb1319a0",
+        "name": "Task 3",
+        "info": "",
+        "x": 90,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "079fc418a34c90e4",
+        "type": "inject",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1040,
+        "wires": [
+            [
+                "7e451f633e1bf0d6"
+            ]
+        ]
+    },
+    {
+        "id": "7e451f633e1bf0d6",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 6",
+        "func": "let data = [{ a: 1 }, { a: 2 }, { a: 3 }, { a: 4 }, { a: 5 }, { a: 6 }, { a: 7 }, { a: 8 }, { a: 100 }]\nlet dov=data.length\n\nfor (var i = 0; i < dov; i++) {\n    data[i].date = new Date()\n    data[i].ttt = data[i].a +100\n\n}\n//Створити новий параметр в обєктах data який буде зберігати час( date: new Date())\nmsg.payload = data\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1040,
+        "wires": [
+            [
+                "f7a59bce1766210b"
+            ]
+        ]
+    },
+    {
+        "id": "f7a59bce1766210b",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "dccfbcc7a5da6cfd",
+        "type": "comment",
+        "z": "60f6f989fb1319a0",
+        "name": "Task 4",
+        "info": "",
+        "x": 90,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "edfd4d11a568e20f",
+        "type": "ui_upload",
+        "z": "60f6f989fb1319a0",
+        "group": "27f0900d.f39298",
+        "title": "upload",
+        "name": "",
+        "order": 0,
+        "width": "9",
+        "height": 5,
+        "chunk": "2048",
+        "transfer": "binary",
+        "x": 210,
+        "y": 1260,
+        "wires": [
+            [
+                "6adcd5e5b6b45d36",
+                "063aa5e45d0fcdc5"
+            ]
+        ]
+    },
+    {
+        "id": "b0d3cc1692b40753",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "6adcd5e5b6b45d36",
+        "type": "function",
+        "z": "60f6f989fb1319a0",
+        "name": "function 7",
+        "func": "msg.filename = msg.file.name\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1260,
+        "wires": [
+            [
+                "0b8c7b5aaabe2233"
+            ]
+        ]
+    },
+    {
+        "id": "0b8c7b5aaabe2233",
+        "type": "file",
+        "z": "60f6f989fb1319a0",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 600,
+        "y": 1260,
+        "wires": [
+            [
+                "b0d3cc1692b40753"
+            ]
+        ]
+    },
+    {
+        "id": "063aa5e45d0fcdc5",
+        "type": "debug",
+        "z": "60f6f989fb1319a0",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8974742c58bcd5de",
+        "type": "inject",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "0ae8ac71c19c12dc"
+            ]
+        ]
+    },
+    {
+        "id": "0ae8ac71c19c12dc",
+        "type": "file in",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "filename": "/home/pi/odes/gadu_5.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 370,
+        "y": 80,
+        "wires": [
+            [
+                "8173a404efdecffc",
+                "4de968224f413266"
+            ]
+        ]
+    },
+    {
+        "id": "8173a404efdecffc",
+        "type": "debug",
+        "z": "4f8f82d61af83d1a",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4de968224f413266",
+        "type": "csv",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "sep": ";",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "67e6677d905644d6",
+                "3c2f173a4838ec26"
+            ]
+        ]
+    },
+    {
+        "id": "67e6677d905644d6",
+        "type": "function",
+        "z": "4f8f82d61af83d1a",
+        "name": "function 2",
+        "func": "var inData = msg.payload;\n\n//for Dx\nfor (let i = 0; i < inData.length; i++) {\n    if (inData[i + 1]) {\n        let dx = inData[i].col1 - inData[i+1].col1\n        inData[i].dx = dx\n        }\n    else{\n        inData[i].dx=0\n    }    \n}\n\n//for Dy \nfor (let i = 0; i < inData.length; i++) {\n    if (inData[i + 1]) {\n        let dy = inData[i].col2 - inData[i + 1].col2\n        inData[i].dy = dy\n    }\n    else {\n        inData[i].dy = 0\n    }\n}\n\nfor(let i = 0; i < inData.length; i++) {\n    let dx=inData[i].dx   \n    let dy = inData[i].dy\n    let a= dy/dx\n    inData[i].a=a \n     \n}\nfor (let i = 0; i < inData.length; i++) {\n    let x = inData[i].col1\n    let y = inData[i].col2\n    let a = inData[i].a\n    let b=y-a*x\n    inData[i].b=b\n\n}\n\nflow.set(\"cof5\", inData)\nmsg.payload = inData\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "873b89c409f9cfc5"
+            ]
+        ]
+    },
+    {
+        "id": "3c2f173a4838ec26",
+        "type": "debug",
+        "z": "4f8f82d61af83d1a",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "873b89c409f9cfc5",
+        "type": "debug",
+        "z": "4f8f82d61af83d1a",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "cf3814c3fe10f6b2",
+        "type": "function",
+        "z": "4f8f82d61af83d1a",
+        "name": "вказати номер сенсора ",
+        "func": "var sensor = \"41109\" // вказати номер сенсора\n\n\n// набір обєктів для вимірів\nvar level = msg.payload[`${sensor}`].fuel_lvl \n//Коефіцієнти\nvar inData_cof5 = flow.get(\"cof5\")\nvar inData_cof10 = flow.get(\"cof5\")\n//Функція обрахунку\nvar getVolumeFromHeight = flow.get(\"getVolumeFromHeight\")\n\nmsg.payload = {\n    local: msg.payload[`${sensor}`],\n    vol5_1: getVolumeFromHeight(inData_cof5, level), // передавати коефіцієнти які потрібно\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "3068474c46c482d6",
+                "5d758b204850707f",
+                "8150c96b633d875b",
+                "5a3698915e397c4d",
+                "f67b62197616a3be"
+            ]
+        ]
+    },
+    {
+        "id": "3068474c46c482d6",
+        "type": "debug",
+        "z": "4f8f82d61af83d1a",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e1e3bb5845bfb952",
+        "type": "function",
+        "z": "4f8f82d61af83d1a",
+        "name": "getVolume INIT",
+        "func": "function getVolume(cof, mmLevel) {\n    var max = \"\"\n    var min = \"\"\n\n    for (let i = 0; i < cof.length; i++) {\n        if (cof[i].col1 > mmLevel) {\n            max = cof[i]\n            break\n        }\n    }\n\n    for (let i = 0; i < cof.length; i++) {\n        if (cof[i].col1 < mmLevel && cof[i + 1].col1 > mmLevel) {\n            min = cof[i]\n            break\n        }\n    }\n    let vol_max = Number((mmLevel * max.a + max.b).toFixed(2)); \n    let vol_min = Number((mmLevel * min.a + min.b).toFixed(2)); \n\n\n    return {\n        max: max,\n        min: min,\n        mmLevel,\n        vol_max: Number(vol_max.toFixed(2)),\n        vol_min: Number(vol_min.toFixed(2))\n    }\n\n}\n\nflow.set(\"getVolumeFromHeight\", getVolume)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e53cdfa3ffb35c4e",
+        "type": "inject",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "e1e3bb5845bfb952"
+            ]
+        ]
+    },
+    {
+        "id": "a10c6a268a15ca14",
+        "type": "comment",
+        "z": "4f8f82d61af83d1a",
+        "name": "Init COFIG",
+        "info": "",
+        "x": 100,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c6b2fc6c4e593573",
+        "type": "comment",
+        "z": "4f8f82d61af83d1a",
+        "name": "Ініціалізація функції перерахунку обєму",
+        "info": "",
+        "x": 220,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ddf7d7a6e95061b1",
+        "type": "inject",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "ef2264ca10e51984"
+            ]
+        ]
+    },
+    {
+        "id": "ef2264ca10e51984",
+        "type": "function",
+        "z": "4f8f82d61af83d1a",
+        "name": "симуляція даних",
+        "func": "msg.payload = { \n    \"41109\": { \n        \"Original_res\": \"041109_0_00139.89_00038.53_+262_049\", \n        \"Probe address\": \"41109\", \n        \"Status\": \"0\", \n        \"fuel_lvl\": 139.89, \n        \"water_lvl\": 38.53, \n        \"temp\": 26.2 \n    },\n    \"65432\": {\n        \"Original_res\": \"041109_0_00139.89_00038.53_+262_049\",\n        \"Probe address\": \"41109\",\n        \"Status\": \"0\",\n        \"fuel_lvl\": 1076.89,\n        \"water_lvl\": 38.53,\n        \"temp\": 26.2\n    },\n    \"1234\": {\n        \"Original_res\": \"041109_0_00139.89_00038.53_+262_049\",\n        \"Probe address\": \"41109\",\n        \"Status\": \"0\",\n        \"fuel_lvl\": 234.89,\n        \"water_lvl\": 38.53,\n        \"temp\": 26.2\n    }   \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "cf3814c3fe10f6b2",
+                "639021320cb62c9d"
+            ]
+        ]
+    },
+    {
+        "id": "639021320cb62c9d",
+        "type": "debug",
+        "z": "4f8f82d61af83d1a",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 200,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5d758b204850707f",
+        "type": "ui_gauge",
+        "z": "4f8f82d61af83d1a",
+        "name": "",
+        "group": "0d729412dcd7cc5a",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "gtype": "wave",
+        "title": "{{ \"Локальный объем, л.\"}}",
+        "label": "",
+        "format": "{{msg.payload.vol5_1.vol_max}}",
+        "min": 0,
+        "max": "5000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 770,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8150c96b633d875b",
+        "type": "ui_text",
+        "z": "4f8f82d61af83d1a",
+        "group": "0d729412dcd7cc5a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{\"Уровень воды, мм\" }}",
+        "format": "{{msg.payload.local.water_lvl}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 770,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5a3698915e397c4d",
+        "type": "ui_text",
+        "z": "4f8f82d61af83d1a",
+        "group": "0d729412dcd7cc5a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{\"ГАЗ Уровень, мм\"}}",
+        "format": "{{msg.payload.local.water_lvl}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 770,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f67b62197616a3be",
+        "type": "ui_text",
+        "z": "4f8f82d61af83d1a",
+        "group": "0d729412dcd7cc5a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{\"ГАЗ Температура, °C\"}}",
+        "format": "{{msg.payload.local.temp}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "2564f590.3ac47a",
+        "type": "http in",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "url": "/getWeight2",
+        "method": "get",
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "59968a02.782014"
+            ]
+        ]
+    },
+    {
+        "id": "59968a02.782014",
+        "type": "function",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "func": "function getRndInteger(min, max) {\n  return Math.floor(Math.random() * (max - min)) + min;\n}\n\nmsg.payload = {\"weight\":getRndInteger(2000, 45600),\"prevWeight\":5000,\"prevTransaction\":0,\"transaction\":0,\"transactionDataCount\":1,\"stable\":true,\"duration\":0,\"transactionMaxWeight\":null,\"transactionAccWeight\":0,\"perimetr\":true,\"driverInCar\":false,\"status\":true}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 82,
+        "wires": [
+            [
+                "937b659.356a598"
+            ]
+        ]
+    },
+    {
+        "id": "937b659.356a598",
+        "type": "http response",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "x": 457,
+        "y": 81,
+        "wires": []
+    },
+    {
+        "id": "de812ea0.e752d",
+        "type": "http in",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "url": "/GetSnapshot1",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 118,
+        "y": 209,
+        "wires": [
+            [
+                "b97c41d0.94364"
+            ]
+        ]
+    },
+    {
+        "id": "b97c41d0.94364",
+        "type": "http request",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "url": "https://diverseco.com.au/wp-content/uploads/2020/09/Flatbed-Truckweigh-1.png",
+        "tls": "1266fec8.de0811",
+        "x": 380,
+        "y": 207,
+        "wires": [
+            [
+                "b83cb51d.7ea558",
+                "fac9f032.de191"
+            ]
+        ]
+    },
+    {
+        "id": "b83cb51d.7ea558",
+        "type": "http response",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "x": 571,
+        "y": 203,
+        "wires": []
+    },
+    {
+        "id": "c3d0dc5a.a2b2d",
+        "type": "http in",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "url": "/GetSnapshot2",
+        "method": "get",
+        "swaggerDoc": "",
+        "x": 118,
+        "y": 253,
+        "wires": [
+            [
+                "7a4f40c2.37f35"
+            ]
+        ]
+    },
+    {
+        "id": "7a4f40c2.37f35",
+        "type": "http request",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "method": "GET",
+        "ret": "bin",
+        "url": "https://blog.blueinktech.com/hs-fs/hubfs/grain_truck_on_scale.jpg?width=700&height=525&name=grain_truck_on_scale.jpg",
+        "tls": "1266fec8.de0811",
+        "x": 378,
+        "y": 253,
+        "wires": [
+            [
+                "8c209a6b.f293a8",
+                "fac9f032.de191"
+            ]
+        ]
+    },
+    {
+        "id": "8c209a6b.f293a8",
+        "type": "http response",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "x": 551,
+        "y": 261,
+        "wires": []
+    },
+    {
+        "id": "d3f45576.d0dc48",
+        "type": "inject",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 146,
+        "y": 159,
+        "wires": [
+            [
+                "b97c41d0.94364"
+            ]
+        ]
+    },
+    {
+        "id": "fac9f032.de191",
+        "type": "debug",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 591,
+        "y": 151,
+        "wires": []
+    },
+    {
+        "id": "7f655a6a.d25b64",
+        "type": "inject",
+        "z": "d5cdf4f9cda1e2be",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 144,
+        "y": 295,
+        "wires": [
+            [
+                "7a4f40c2.37f35"
+            ]
+        ]
+    },
+    {
+        "id": "f37858f4f2ee02d8",
+        "type": "inject",
+        "z": "e4f907c2c1e00e29",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "6eeae748087e3e90"
+            ]
+        ]
+    },
+    {
+        "id": "6eeae748087e3e90",
+        "type": "function",
+        "z": "e4f907c2c1e00e29",
+        "name": "function 8",
+        "func": "msg.payload = `sshpass -p \"020895\" scp -r sasha_pc_w10@192.168.0.100:'E:/m21/\"Log Files\"' /home/pi`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "251baba3a344d894"
+            ]
+        ]
+    },
+    {
+        "id": "251baba3a344d894",
+        "type": "exec",
+        "z": "e4f907c2c1e00e29",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 490,
+        "y": 200,
+        "wires": [
+            [
+                "ce21973020b9f7be"
+            ],
+            [
+                "ce21973020b9f7be"
+            ],
+            [
+                "ce21973020b9f7be"
+            ]
+        ]
+    },
+    {
+        "id": "ce21973020b9f7be",
+        "type": "debug",
+        "z": "e4f907c2c1e00e29",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "77320e4bf661f1ad",
+        "type": "comment",
+        "z": "e4f907c2c1e00e29",
+        "name": "",
+        "info": "scp /home/ubuntu/myfile username@IP_of_windows_machine:/C:/Users/Anshul/Desktop ",
+        "x": 270,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c4e37d670878f7be",
+        "type": "inject",
+        "z": "e4f907c2c1e00e29",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "076b61dc9e0972fc"
+            ]
+        ]
+    },
+    {
+        "id": "076b61dc9e0972fc",
+        "type": "function",
+        "z": "e4f907c2c1e00e29",
+        "name": "port",
+        "func": "msg.payload = `nc -zvw3 192.168.0.100 22`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "1ecadbfad6476e4a"
+            ]
+        ]
+    },
+    {
+        "id": "1ecadbfad6476e4a",
+        "type": "exec",
+        "z": "e4f907c2c1e00e29",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "45ed2f695eede4b9"
+            ],
+            [
+                "45ed2f695eede4b9"
+            ],
+            [
+                "45ed2f695eede4b9"
+            ]
+        ]
+    },
+    {
+        "id": "45ed2f695eede4b9",
+        "type": "debug",
+        "z": "e4f907c2c1e00e29",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "62b62e91843e04db",
+        "type": "comment",
+        "z": "6d8a995e867654d0",
+        "name": "такс 1",
+        "info": "/home/pi/Log Files - каталог з аналізами\n/home/pi/Log Files/sunflower__22_12 _22.RILog - файл аналізами\n\n1. Отримати всі аналізи(прочитати файл аналізу)\n2. Зробити масив аналізів метод spilt() - передати в аргумент символ переводу строку\n3. Зробити масив обєктів з показниками якості(усіх показників)\n    приклад як має бути\n    var full = [{date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62},\n                {date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62},\n                {date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62}\n      ]\n\n      і Так всі аналізи що є у файлі",
+        "x": 110,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d19ea6087ecd12ce",
+        "type": "file in",
+        "z": "6d8a995e867654d0",
+        "name": "read_sunflower",
+        "filename": "/home/pi/Log Files/sunflower__22_12 _22.RILog",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 680,
+        "y": 160,
+        "wires": [
+            [
+                "ddd445502744e58f",
+                "3d119d15ec2c1995",
+                "31527c98a42b57db"
+            ]
+        ]
+    },
+    {
+        "id": "7bc7706b2f61747d",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "last_suflower",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "edd86735ddccf450",
+        "type": "comment",
+        "z": "6d8a995e867654d0",
+        "name": "запис у файл(тестовий варіант)",
+        "info": "/home/pi/Log Files - каталог з аналізами\n/home/pi/Log Files/sunflower__22_12 _22.RILog - файл аналізами\n\n1. Отримати всі аналізи\n2. Зробити масив аналізів метод spilt() - передати в аргумент символ переводу строку\n3. Зробити масив обєктів з показниками якості(усіх показників)\n    приклад як має бути\n    var full = [{date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62},\n                {date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62},\n                {date: 1/2/2023/ weight: 34.685, sampleId: 18, oil: 43.8, moisture: 6.62}\n      ]\n\n      і Так всі аналізи що є у файлі",
+        "x": 190,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ddd445502744e58f",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "last_sunflower",
+        "func": "var all=flow.get('all_1')\nvar original = msg.payload.split('\\n')\nvar rus=[]\nvar dlin=original.length\nfor (var i = 0; i < dlin; i++) {\n    var arr_1 = original[i].split(',')\n    var pris = {\n        number: arr_1[0],\n        data: arr_1[1],\n        time: arr_1[2],\n        vaga: arr_1[3],\n        id: arr_1[4],\n        user: arr_1[6],\n        oil: arr_1[8],\n        molsture: arr_1[9],\n        dry: arr_1[10],\n\n    }\n    rus.push(pris)\n}\nrus.pop()\nvar isEqual = rus.toString() === all.toString();\nif (isEqual) {\n    \n} else {\n    msg.payload = rus[rus.length - 1]\n    flow.set(\"all_1\", rus)\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 160,
+        "wires": [
+            [
+                "7bc7706b2f61747d"
+            ]
+        ]
+    },
+    {
+        "id": "c424a5ec9da4a648",
+        "type": "inject",
+        "z": "6d8a995e867654d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "all_1",
+        "payloadType": "flow",
+        "x": 120,
+        "y": 480,
+        "wires": [
+            [
+                "35db2e0c216f91d0"
+            ]
+        ]
+    },
+    {
+        "id": "35db2e0c216f91d0",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "3d119d15ec2c1995",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 23",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "26c918cc2335d718",
+        "type": "inject",
+        "z": "6d8a995e867654d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 40,
+        "wires": [
+            [
+                "89e8277bac0566c6",
+                "cdb4ad016aedac6c"
+            ]
+        ]
+    },
+    {
+        "id": "89e8277bac0566c6",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "init_all_varriable",
+        "func": "flow.set(\"all_1\", []);\nflow.set(\"all_2\", []);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a213c7be1b94ffb",
+        "type": "inject",
+        "z": "6d8a995e867654d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "922b18773935ab55"
+            ]
+        ]
+    },
+    {
+        "id": "922b18773935ab55",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "function 11",
+        "func": "msg.payload = `sudo sshpass -p \"020895\" scp -r sasha_pc_w10@192.168.0.103:'E:/m21/\"Log Files\"' /home/pi`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "8705c63a8a296813"
+            ]
+        ]
+    },
+    {
+        "id": "8705c63a8a296813",
+        "type": "exec",
+        "z": "6d8a995e867654d0",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "d19ea6087ecd12ce",
+                "84953b970531797f"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "31527c98a42b57db",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "function 12",
+        "func": "var all=flow.get('all')\nvar original = msg.payload.split('\\n')\nmsg.payload=original\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "a208cee101754588"
+            ]
+        ]
+    },
+    {
+        "id": "a208cee101754588",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "84953b970531797f",
+        "type": "file in",
+        "z": "6d8a995e867654d0",
+        "name": "read_soya",
+        "filename": "/home/pi/Log Files/soy 22_12_22.RILog",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 650,
+        "y": 480,
+        "wires": [
+            [
+                "1768f66292ac1fa9",
+                "90fcea9f5d26f0c0",
+                "e3a7c352107c0ddc"
+            ]
+        ]
+    },
+    {
+        "id": "1768f66292ac1fa9",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "90fcea9f5d26f0c0",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "lust_soya",
+        "func": "var all=flow.get('all_2')\nvar original = msg.payload.split('\\n')\nvar rus=[]\nvar dlin=original.length\nfor (var i = 0; i < dlin; i++) {\n    var arr_1 = original[i].split(',')\n    var pris = {\n        number: arr_1[0],\n        data: arr_1[1],\n        time: arr_1[2],\n        vaga: arr_1[3],\n        id: arr_1[4],\n        user: arr_1[6],\n        oil: arr_1[8],\n        molsture: arr_1[9],\n        dry: arr_1[10],\n\n    }\n    rus.push(pris)\n}\nrus.pop()\nvar isEqual = rus.toString() === all.toString();\nif (isEqual) {\n    \n} else {\n    msg.payload = rus[rus.length - 1]\n    flow.set(\"all_2\", rus)\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 480,
+        "wires": [
+            [
+                "d97120fcfa3ddf2a"
+            ]
+        ]
+    },
+    {
+        "id": "d97120fcfa3ddf2a",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "lust_soya",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e3a7c352107c0ddc",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "function 14",
+        "func": "var all=flow.get('all')\nvar original = msg.payload.split('\\n')\nmsg.payload=original\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 540,
+        "wires": [
+            [
+                "ee9f165b30be7662"
+            ]
+        ]
+    },
+    {
+        "id": "ee9f165b30be7662",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "727f3286999093c4",
+        "type": "inject",
+        "z": "6d8a995e867654d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "all_2",
+        "payloadType": "flow",
+        "x": 120,
+        "y": 600,
+        "wires": [
+            [
+                "9d0516a65ad0e0fd"
+            ]
+        ]
+    },
+    {
+        "id": "9d0516a65ad0e0fd",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "cdb4ad016aedac6c",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c1a6124c20cbc20d",
+        "type": "function",
+        "z": "6d8a995e867654d0",
+        "name": "function 15",
+        "func": "msg.payload = `sudo scp -i /home/pi/id_rsa.pub -r sasha_pc_w10@192.168.0.103:'E:/m21/\"Log Files\"' /home/pi/ttt`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 700,
+        "wires": [
+            [
+                "cc0130257bcd78fd"
+            ]
+        ]
+    },
+    {
+        "id": "98442902ed0c5404",
+        "type": "inject",
+        "z": "6d8a995e867654d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 700,
+        "wires": [
+            [
+                "c1a6124c20cbc20d"
+            ]
+        ]
+    },
+    {
+        "id": "cc0130257bcd78fd",
+        "type": "exec",
+        "z": "6d8a995e867654d0",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 670,
+        "y": 700,
+        "wires": [
+            [
+                "7550f4ff5a6dabb7"
+            ],
+            [
+                "7550f4ff5a6dabb7"
+            ],
+            [
+                "7550f4ff5a6dabb7"
+            ]
+        ]
+    },
+    {
+        "id": "7550f4ff5a6dabb7",
+        "type": "debug",
+        "z": "6d8a995e867654d0",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "dc59eaef.1681c",
+        "type": "ui_button",
+        "z": "68b44061.6de018",
+        "name": "",
+        "group": "6293e9bc.df8968",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "keyboard",
+        "topicType": "str",
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "e9f291d1.a4dfe"
+            ]
+        ]
+    },
+    {
+        "id": "e9f291d1.a4dfe",
+        "type": "function",
+        "z": "68b44061.6de018",
+        "name": "",
+        "func": "if (msg.payload ===\"x\") {\n    flow.set(\"numbers\", \"\");\n    msg.payload = \"\";\n    return msg;\n}else{\n    var hold = (flow.get(\"numbers\") || \"\") + msg.payload;\n    flow.set(\"numbers\", hold);\n    msg.payload = hold;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 220,
+        "wires": [
+            [
+                "6ca8e1d0.6153b8"
+            ]
+        ]
+    },
+    {
+        "id": "86a05172.0ecfb8",
+        "type": "ui_button",
+        "z": "68b44061.6de018",
+        "name": "",
+        "group": "6293e9bc.df8968",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "num",
+        "topic": "keyboard",
+        "topicType": "str",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "e9f291d1.a4dfe"
+            ]
+        ]
+    },
+    {
+        "id": "c3693577.392be8",
+        "type": "ui_button",
+        "z": "68b44061.6de018",
+        "name": "",
+        "group": "6293e9bc.df8968",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "num",
+        "topic": "keyboard",
+        "topicType": "str",
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "e9f291d1.a4dfe"
+            ]
+        ]
+    },
+    {
+        "id": "f4284afd.2a835",
+        "type": "ui_button",
+        "z": "68b44061.6de018",
+        "name": "",
+        "group": "6293e9bc.df8968",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "x",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "x",
+        "payloadType": "str",
+        "topic": "keyboard",
+        "topicType": "str",
+        "x": 349.3333282470703,
+        "y": 309.33331298828125,
+        "wires": [
+            [
+                "e9f291d1.a4dfe"
+            ]
+        ]
+    },
+    {
+        "id": "6ca8e1d0.6153b8",
+        "type": "ui_text",
+        "z": "68b44061.6de018",
+        "group": "6293e9bc.df8968",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 720,
+        "y": 240,
+        "wires": []
+    }
+]
